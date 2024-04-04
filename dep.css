@@ -1,0 +1,38 @@
+div#dep {
+	position: relative;
+	padding: 70px 0 130px 0;
+	background: #e3e1d2;   
+}
+div#dep div.container {
+	position: relative;
+	display: flex;
+}
+div#dep div.row {
+	position: relative;
+	right: 0;
+	width: calc(50% - 30px);
+}
+div#dep div.row:nth-child(2) {
+	margin-left: 75px;
+}
+div#dep div.row h2 {
+	margin: 0 0 80px 0;
+	font-size: 180px;
+    line-height: 180px;
+    font-weight: 800;
+	letter-spacing: 14px;
+	text-transform: uppercase;
+    color: #395442; 
+}
+div#dep div.row p {
+	margin: 0 0 10.5px 40px;
+	font-weight: 300;
+	color: #395442;
+}
+div#dep div#button-2 {
+	width: 256px;
+}
+div#dep div#button-2::before {
+	content: "Visitez le Dep Frida sur Facebook";
+	transform: translateX(-256px);
+}

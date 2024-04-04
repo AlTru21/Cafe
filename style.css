@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	font: 15px/1.42857143 "Alegreya Sans", Arial, sans-serif;
+}
+a {
+	text-decoration: none;	
+}
+li {
+	list-style: none;
+}
+i {
+	font-style: italic;
+}
+div#header {
+	height: 100%;
+	background-color: #cea352;
+}
+div#header img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 180px;
+  height: 112px;
+	margin: -56px 0 0 -90px;
+}
+div.bg-img {
+	position: relative;
+	z-index: 1;
+	height: 700px;
+}
+div.bg-img img {
+	width: 100%;
+}
+div#bg-img-1 {
+	background: fixed url(https://cafefrida.ca/img/ambiance-8.jpg) 50% -94.5578px / 2214px 1107px;
+}
+div.big-photo {
+	position: absolute;
+	max-width: 980px;
+}
+div#big-photo-1 {
+    bottom: -430px;
+    right: 0;
+    width: 60%;
+}
+div.big-photo::after {
+	content: "";
+	position: absolute;
+    top: 10px;
+    left: -10px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+div#big-photo-1::after {
+	background: #ac9377;
+}
+div.small-photo {
+	position: absolute;
+	z-index: 1;
+}
+div#small-photo-1 {
+    right: 50%;
+	bottom: -220px;
+    width: 450px;
+    margin-right: -150px;
+}
+div.small-photo::after {
+	content: "";
+	position: absolute;
+    top: 10px;
+    left: -10px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+	background: #395442;
+}
+div#bg-img-2 {
+	background: fixed url(https://cafefrida.ca/img/ambiance-9.jpg) 50% -79.8753px / 2214px 1107px;
+}
+div#big-photo-2 {
+    bottom: -162px;
+    right: 0;
+    width: 48%;
+}
+div#big-photo-2::after {
+	background: #f2e3b4;
+}
+div#small-photo-2 {
+    top: -90px;
+    right: 5%;
+    width: 30%;
+    max-width: 540px;
+}
+div#bg-img-3 {
+	background: fixed url(https://cafefrida.ca/img/ambiance-11.jpg) 50% -99.7166px / 2214px 1107px;
+}
+div#big-photo-3 {
+    bottom: -162px;
+    left: 0;
+    width: 48%;
+}
+div#big-photo-3::after {
+	background: #f2e3b4;
+}
+div#small-photo-3 {
+    top: -90px;
+    left: 2%;
+    width: 30%;
+    max-width: 370px;
+}
+div#big-photo-4 {
+    top: -78px;
+    right: 10%;
+    width: 30%;
+}
+div#big-photo-4::after {
+	background: #ac9377;
+}
+div#map {
+	height: 520px;
+}
+div.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+div.row{
+	margin: 0 -15px 0 -15px;
+}

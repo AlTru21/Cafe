@@ -1,0 +1,61 @@
+@keyframes SMOKE {
+	0% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		transform:translateY(15px)
+	}
+	50% {
+		opacity:1;
+		filter:alpha(opacity=100);
+		transform:translateY(0)
+	} 
+	100% {
+		opacity:0;
+		filter:alpha(opacity=0);
+		transform:translateY(-15px)
+	}
+}
+div#loading {
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	z-index: 4;
+	display: none;
+    background: #cea352;
+    transition: all .3s ease-in-out;
+}
+div#coffee-wrapper {
+	position: fixed;
+	top: 50%;
+    left: 50%;
+	width: 60px;
+    height: 50px;
+    margin: 0 0 0 -30px;
+    text-align: center;
+	opacity: 1;
+    transition: all .3s ease-in-out;
+}
+div#coffee-wrapper span {
+	position: absolute;
+    bottom: 55px;
+    display: block;
+    width: 14px;
+    height: 34px;
+    background: url(https://cafefrida.ca/img/waves-coffee.svg) center bottom no-repeat;
+}
+div#coffee-wrapper span#left, 
+div#coffee-wrapper span#middle, 
+div#coffee-wrapper span#right {
+	animation: SMOKE 2s ease 0s infinite running;
+}
+div#coffee-wrapper span#left {
+	left: 8px;
+}
+div#coffee-wrapper span#middle {
+	left: 21px;
+}
+div#coffee-wrapper span#right {
+	left: 34px;
+}

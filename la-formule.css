@@ -1,0 +1,81 @@
+div#la-formule {
+	position: relative;
+	padding: 150px 0;
+	background: #e3e1d2;
+}
+div#la-formule::after {
+	content: "";
+	position: absolute;
+	top: 0;
+    right: 0;
+    bottom: 0;
+	width: 50%;
+    background: #efece2;
+}
+div#la-formule h2 {
+	position: absolute;
+	top: 50.5%;
+	left: -10px;
+	margin-top: -10px;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: white;
+	transform: rotate(-90deg);
+}
+div#col-left {
+	width: 33.33%;
+	padding: 0 30px;
+}
+div#col-left h1 {
+	margin: 0 0 44px 0;
+	font-size: 54px;
+    font-weight: 800;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #395442;
+}
+div#col-left h1 span {
+	font-size: 26px;
+	font-weight: 800;
+}
+div#text {
+	padding-left: 40px;
+}
+div#text h3 {
+    margin: 0 26px 20px 0;
+	font-size: 28px;
+	font-weight: 800;
+    line-height: 28px;
+    color: #ac9377;
+}
+div#text p {
+	margin: 0 40px 10.5px 0;
+	font-size: 15px;
+	font-weight: 400;
+    line-height: 1.42857143;
+    color: #ac9377;
+}
+div#text sup {
+    position: relative;
+	top: -.5em;
+	font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+div#col-right {
+	position: absolute;
+    top: 0;
+	right: 0;
+	bottom: 0;
+    z-index: 1;
+	width: calc(50% - 200px);
+    padding: 266px 100px 100px 0;
+}
+div#col-right div#img {
+	width: 100%;
+	height: 102%; 
+	max-height: 500px;
+	background: url(https://cafefrida.ca/img/toast-gif.gif) no-repeat center center / cover;
+}
