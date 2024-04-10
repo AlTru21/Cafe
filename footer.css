@@ -1,81 +1,119 @@
+/* Стили для раздела footer */
+
+/* Основные стили для блока footer */
 div#footer {
-	position: relative;
-	z-index: 1;
-	background-color: #395442;
-    padding: 130px 0 207px 0;
+    position: relative;
+    z-index: 1;
+    background-color: #395442;
+    padding: 130px 0 207px 0; /* Установка внутренних отступов для footer */
 }
+
+/* Стили для изображений в контейнере внутри footer */
 div#footer div.container img {
-	width: 130px;
+    width: 130px;
     height: auto;
-	margin: 0 0 36px 55px;
+    margin: 0 0 36px 55px;
 }
+
+/* Стили для строк внутри footer */
 div#footer div.row {
-	display: flex;
-	padding-left: 65px;
+    display: flex;
+    padding-left: 65px;
 }
+
+/* Стили для колонок внутри footer */
 div#footer div.col {
-	width: 25%;
-	padding-left: 5px;
+    width: 25%;
+    padding-left: 5px;
 }
+
+/* Дополнительные стили для второй колонки */
 div#footer div.col:nth-child(2) {
-	padding-left: 2px;
+    padding-left: 2px;
 }
+
+/* Стили для абзацев внутри колонок */
 div#footer div.col p {
-	margin-bottom: 10px;
-	font-size: 15px;
-	text-transform: uppercase;
-	color: #f2e3b4;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #f2e3b4;
 }
+
+/* Дополнительные стили для второго абзаца в первой колонке */
 div#footer div.col:first-child p:nth-child(2) {
-	margin-bottom: 2px;
+    margin-bottom: 2px;
 }
+
+/* Стили для жирного текста внутри абзацев */
 div#footer div.col p strong {
-	font-size: 24px;
-	font-weight: 700;
+    font-size: 24px;
+    font-weight: 700;
 }
+
+/* Стили для ссылок внутри колонок */
 div#footer div.col a {
-	font-size: 15px;
-	color: #f2e3b4;
-	text-transform: uppercase;
-	transition: all .3s ease-in-out;
+    font-size: 15px;
+    color: #f2e3b4;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
 }
+
+/* Эффект при наведении на ссылку */
 div#footer div.col a:hover {
-	color: #fff;
+    color: #fff;
 }
+
+/* Стили для заголовков внутри колонок */
 div#footer div.col h4 {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
     font-weight: 800;
     font-size: 16px;
-	text-transform: uppercase;
-	color: #f2e3b4;
+    text-transform: uppercase;
+    color: #f2e3b4;
 }
+
+/* Стили для иконки Facebook в ссылке */
 div#footer div.col a.icon-fb {
-	margin: 14px 0 70px 0;
-	color: #395442;
-	background-color: #f2e3b4;
+    margin: 14px 0 70px 0;
+    color: #395442;
+    background-color: #f2e3b4;
 }
+
+/* Стили для социальных иконок в последней строке */
 div#footer div.row:last-child div.col {
-	position: relative;
-	width: auto;
+    position: relative;
+    width: auto;
 }
+
+/* Позиционирование svg иконки */
 div#footer div.row:last-child div.col svg {
-	position: absolute;
+    position: absolute;
     top: 4px;
     left: 5px;
 }
+
+/* Заливка цветом path в svg иконке */
 div#footer div.row:last-child div.col svg path {
-	fill: #f2e3b4;
+    fill: #f2e3b4;
 }
+
+/* Дополнительные стили для второй колонки в последней строке */
 div#footer div.row:last-child div.col:nth-child(2) {
-	margin-left: 22px;
+    margin-left: 22px;
 }
+
+/* Стили для абзацев и ссылок во второй колонке в последней строке */
 div#footer div.row:last-child div.col:nth-child(2) p {
-	margin-bottom: 1px;
-	font-size: 10px;
+    margin-bottom: 1px;
+    font-size: 10px;
 }
+
 div#footer div.row:last-child div.col:nth-child(2) a {
-	font-size: 10px;
+    font-size: 10px;
 }
+
+/* Эффект при наведении на ссылку во второй колонке в последней строке */
 div#footer div.row:last-child div.col:nth-child(2) a:hover {
-	color: #fff;
+    color: #fff;
 }

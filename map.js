@@ -1,6 +1,6 @@
 function initMap() {
 
-    // Specify features and elements to define styles.
+    // Указание функций и элементов для определения стилей.
     var styleArray = [
       {
           "featureType": "all",
@@ -172,12 +172,12 @@ function initMap() {
               }
           ];
   
-    // Create a map object and specify the DOM element for display.
-      var map = new google.maps.Map(document.getElementById('map'), {
+    // Создание объекта карты и указание элемента DOM для отображения.
+    var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 46.341587, lng: -72.538803},
           scrollwheel: false,
-          // Apply the map style array to the map.
-          styles: styleArray,
+        // Применение массива стилей к карте.
+        styles: styleArray,
           zoom: 14,
           draggable: false
   

@@ -1,38 +1,53 @@
+/* CSS стили для блока с идентификатором dep */
 div#dep {
-	position: relative;
-	padding: 70px 0 130px 0;
-	background: #e3e1d2;   
+    position: relative;
+    padding: 70px 0 130px 0; /* отступы сверху, справа, снизу и слева */
+    background: #e3e1d2;   /* цвет фона */
 }
+
+/* CSS стили для контейнера внутри блока dep */
 div#dep div.container {
-	position: relative;
-	display: flex;
+    position: relative;
+    display: flex; /* использование flexbox для расположения элементов внутри контейнера */
 }
+
+/* CSS стили для строки внутри контейнера */
 div#dep div.row {
-	position: relative;
-	right: 0;
-	width: calc(50% - 30px);
+    position: relative;
+    right: 0; /* расположение элемента справа */
+    width: calc(50% - 30px); /* вычисление ширины элемента */
 }
+
+/* CSS стили для второй строки внутри контейнера */
 div#dep div.row:nth-child(2) {
-	margin-left: 75px;
+    margin-left: 75px; /* отступ слева */
 }
+
+/* CSS стили для заголовка внутри строки */
 div#dep div.row h2 {
-	margin: 0 0 80px 0;
-	font-size: 180px;
-    line-height: 180px;
-    font-weight: 800;
-	letter-spacing: 14px;
-	text-transform: uppercase;
-    color: #395442; 
+    margin: 0 0 80px 0; /* отступы сверху, справа, снизу и слева */
+    font-size: 180px; /* размер шрифта */
+    line-height: 180px; /* высота строки */
+    font-weight: 800; /* насыщенность шрифта */
+    letter-spacing: 14px; /* межбуквенный интервал */
+    text-transform: uppercase; /* преобразование текста в верхний регистр */
+    color: #395442;  /* цвет текста */
 }
+
+/* CSS стили для абзацев внутри строки */
 div#dep div.row p {
-	margin: 0 0 10.5px 40px;
-	font-weight: 300;
-	color: #395442;
+    margin: 0 0 10.5px 40px; /* отступы сверху, справа, снизу и слева */
+    font-weight: 300; /* насыщенность шрифта */
+    color: #395442; /* цвет текста */
 }
+
+/* CSS стили для кнопки с идентификатором button-2 внутри блока dep */
 div#dep div#button-2 {
-	width: 256px;
+    width: 256px; /* ширина кнопки */
 }
+
+/* CSS стили для псевдоэлемента ::before кнопки button-2 */
 div#dep div#button-2::before {
-	content: "Visitez le Dep Frida sur Facebook";
-	transform: translateX(-256px);
+    content: "Visitez le Dep Frida sur Facebook"; /* текст псевдоэлемента */
+    transform: translateX(-256px); /* сдвиг на -256px по оси X */
 }
